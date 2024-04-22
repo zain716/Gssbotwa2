@@ -1,4 +1,4 @@
-{
+{ 
   "name": "whatsapp-bot (GSS BOTWA V2.0)",
   "description": "Whatsapp bot.",
   "keywords": ["whatsapp bot"],
@@ -26,22 +26,22 @@
       "value": ""
     },
     "TYPEMENU": {
-  "description": "choose menu type from v1 to v5",
+  "description": "choose menu type from 1 to 5",
   "required": false,
-  "value": "v1"
+  "value": ""
 },
 "ONLYGROUP": {
-  "description": "true for bot work in only group otherwise false",
+  "description": "True for bot work in only group otherwise false",
   "required": false,
   "value": "false"
 },
 "ONLYPC": {
-  "description": "true for bot work in only private chat otherwise false",
+  "description": "True for bot work in only private chat otherwise false",
   "required": false,
   "value": "false"
 },
 "AUTO_BLOCK_ENABLED": {
-  "description": "Enable auto block feature for +212",
+  "description": "Enable auto block feature",
   "required": false,
   "value": "true"
 }
@@ -60,4 +60,4 @@
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
   ]
-} 
+}
